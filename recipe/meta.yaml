@@ -1,0 +1,20 @@
+package:
+  name: anaconda_navigator_shortcut_anacondapro
+  version: 0.1.0
+
+build:
+  number: 0
+  skip: True  # [not win]
+
+requirements:
+  run:
+    - anaconda-navigator
+
+about:
+  license: BSD
+  summary: Anaconda Navigator shortcut creator for Windows (using menuinst)
+
+extra:
+  recipe-maintainers:
+    - bkreider
+
